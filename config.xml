@@ -46,7 +46,7 @@
 			2 : B & W
 			3 : WYSIWYG but without background colour
 		-->
-        <GUIConfig name="Print" lineNumber="no" printOption="0" headerLeft="$(FULL_CURRENT_PATH)" headerMiddle="" headerRight="$(LONG_DATE) $(TIME)" headerFontName="IBMPC" headerFontStyle="1" headerFontSize="8" footerLeft="" footerMiddle="-$(CURRENT_PRINTING_PAGE)-" footerRight="" footerFontName="" footerFontStyle="0" footerFontSize="9" margeLeft="0" margeTop="0" margeRight="0" margeBottom="0" />
+        <GUIConfig name="Print" lineNumber="yes" printOption="0" headerLeft="$(FULL_CURRENT_PATH)" headerMiddle="" headerRight="$(LONG_DATE) $(TIME)" headerFontName="IBMPC" headerFontStyle="1" headerFontSize="8" footerLeft="" footerMiddle="-$(CURRENT_PRINTING_PAGE)-" footerRight="" footerFontName="" footerFontStyle="0" footerFontSize="9" margeLeft="0" margeTop="0" margeRight="0" margeBottom="0" />
         <!--
                             Backup Setting :
                                 0 : non backup
@@ -73,7 +73,7 @@
         <GUIConfig name="MRU">yes</GUIConfig>
         <GUIConfig name="URL">0</GUIConfig>
         <GUIConfig name="globalOverride" fg="no" bg="no" font="yes" fontSize="yes" bold="yes" italic="yes" underline="yes" />
-        <GUIConfig name="auto-completion" autoCAction="0" triggerFromNbChar="1" funcParams="no" />
+        <GUIConfig name="auto-completion" autoCAction="1" triggerFromNbChar="1" funcParams="yes" />
         <GUIConfig name="sessionExt"></GUIConfig>
         <GUIConfig name="SmartHighLight">yes</GUIConfig>
         <GUIConfig name="TagsMatchHighLight" TagAttrHighLight="yes" HighLightNonHtmlZone="no">yes</GUIConfig>
@@ -86,7 +86,7 @@
         <GUIConfig name="SmartHighLightCaseSensitive">no</GUIConfig>
         <GUIConfig name="multiInst" setting="0" />
         <GUIConfig name="auto-insert" parentheses="no" brackets="no" curlyBrackets="no" quotes="no" doubleQuotes="no" htmlXmlTag="no" />
-        <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="0" />
+        <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
         <GUIConfig name="DockingManager" leftWidth="200" rightWidth="238" topHeight="200" bottomHeight="647">
             <PluginDlg pluginName="NPPJSONViewer.dll" id="0" curr="0" prev="-1" isVisible="no" />
             <PluginDlg pluginName="Snippets" id="-1" curr="1" prev="-1" isVisible="yes" />
@@ -123,6 +123,8 @@
     </FindHistory>
     <History nbMaxFile="15" inSubMenu="no" customLength="-1">
         <File filename="C:\Users\ALTMAMA\AppData\Roaming\Notepad++\README.md" />
+        <File filename="C:\Users\ALTMAMA\GitHub\GoogleContacts_CardDAV_Check\CHECK.pl" />
+        <File filename="C:\Users\ALTMAMA\GitHub\GoogleContacts_CardDAV_Check\README.md" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
