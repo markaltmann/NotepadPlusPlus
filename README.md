@@ -7,4 +7,4 @@
 ## SETUP ##
 
     cd %AppData%\Roaming
-    git clone https://github.com/tairan/NotepadPlusPlus.git Notepad++
+    git clone https://github.com/markaltmann/NotepadPlusPlus.git Notepad++

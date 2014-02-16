@@ -74,7 +74,7 @@
         <GUIConfig name="URL">0</GUIConfig>
         <GUIConfig name="globalOverride" fg="no" bg="no" font="yes" fontSize="yes" bold="yes" italic="yes" underline="yes" />
         <GUIConfig name="auto-completion" autoCAction="0" triggerFromNbChar="1" funcParams="no" />
-        <GUIConfig name="sessionExt"></GUIConfig>
+        <GUIConfig name="sessionExt" />
         <GUIConfig name="SmartHighLight">yes</GUIConfig>
         <GUIConfig name="TagsMatchHighLight" TagAttrHighLight="yes" HighLightNonHtmlZone="no">yes</GUIConfig>
         <GUIConfig name="MenuBar">show</GUIConfig>
@@ -94,6 +94,7 @@
             <ActiveTabs cont="2" activeTab="-1" />
             <ActiveTabs cont="3" activeTab="-1" />
         </GUIConfig>
+        <GUIConfig name="multiInst" setting="0" />
     </GUIConfigs>
     <!-- The History of opened files list -->
     <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="yes" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no">
