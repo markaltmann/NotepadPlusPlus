@@ -20,8 +20,6 @@
         <Command name="Open current dir cmd" Ctrl="no" Alt="no" Shift="no" Key="0">cmd /K cd /d $(CURRENT_DIRECTORY)</Command>
         <Command name="Send via Outlook" Ctrl="yes" Alt="yes" Shift="yes" Key="79">outlook /a &quot;$(FULL_CURRENT_PATH)&quot;</Command>
     </UserDefinedCommands>
-    <PluginCommands>
-        <PluginCommand moduleName="NppSnippets.dll" internalID="0" Ctrl="yes" Alt="yes" Shift="no" Key="88" />
-    </PluginCommands>
+    <PluginCommands />
     <ScintillaKeys />
 </NotepadPlus>
