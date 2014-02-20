@@ -13,11 +13,11 @@
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" size="4" replaceBySpace="yes" />
         <!--App position-->
-        <GUIConfig name="AppPosition" x="327" y="180" width="955" height="651" isMaximized="yes" />
+        <GUIConfig name="AppPosition" x="157" y="61" width="1607" height="920" isMaximized="yes" />
         <!-- For the primary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box"  -->
-        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" folderMarkStyle="box" indentGuideLine="show" currentLineHilitingShow="show" Wrap="yes" edge="no" edgeNbColumn="100" wrapSymbolShow="hide" zoom="0" whiteSpaceShow="show" eolShow="hide" lineWrapMethod="aligned" zoom2="1" borderWidth="2" disableAdvancedScrolling="no" />
+        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" folderMarkStyle="box" indentGuideLine="show" currentLineHilitingShow="show" Wrap="yes" edge="no" edgeNbColumn="100" wrapSymbolShow="hide" zoom="1" whiteSpaceShow="show" eolShow="hide" lineWrapMethod="aligned" zoom2="1" borderWidth="2" disableAdvancedScrolling="no" />
         <!-- For the secodary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box" -->
@@ -87,19 +87,26 @@
         <GUIConfig name="multiInst" setting="0" />
         <GUIConfig name="auto-insert" parentheses="no" brackets="no" curlyBrackets="no" quotes="no" doubleQuotes="no" htmlXmlTag="no" />
         <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
-        <GUIConfig name="DockingManager" leftWidth="200" rightWidth="238" topHeight="200" bottomHeight="647">
+        <GUIConfig name="DockingManager" leftWidth="200" rightWidth="357" topHeight="200" bottomHeight="647">
+            <PluginDlg pluginName="Notepad++::InternalFunction" id="44081" curr="0" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="NppTaskList.dll" id="15" curr="1" prev="-1" isVisible="yes" />
+            <PluginDlg pluginName="Notepad++::InternalFunction" id="44084" curr="1" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="Notepad++::InternalFunction" id="44080" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="NPPJSONViewer.dll" id="0" curr="0" prev="-1" isVisible="no" />
             <PluginDlg pluginName="Snippets" id="-1" curr="1" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="dummy" id="0" curr="3" prev="-1" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44070" curr="0" prev="-1" isVisible="no" />
             <ActiveTabs cont="0" activeTab="-1" />
-            <ActiveTabs cont="1" activeTab="-1" />
+            <ActiveTabs cont="1" activeTab="0" />
             <ActiveTabs cont="2" activeTab="-1" />
             <ActiveTabs cont="3" activeTab="-1" />
         </GUIConfig>
     </GUIConfigs>
     <!-- The History of opened files list -->
     <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="yes" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no">
+        <Find name="TODO" />
+        <Find name="$cont" />
+        <Find name="cont" />
         <Find name="state" />
         <Find name="status" />
         <Find name="Error" />
@@ -107,9 +114,8 @@
         <Find name="read" />
         <Find name="203.208.46" />
         <Find name="46." />
-        <Find name="47." />
-        <Find name=".46." />
-        <Find name="true" />
+        <Replace name="$contact" />
+        <Replace name="contact" />
         <Replace name="203.208.47" />
         <Replace name="47." />
         <Replace name="46." />
@@ -118,13 +124,10 @@
         <Replace name="categories" />
         <Replace name="    " />
         <Replace name="+ " />
-        <Replace name="* " />
-        <Replace name="*" />
     </FindHistory>
     <History nbMaxFile="15" inSubMenu="no" customLength="-1">
-        <File filename="C:\Users\ALTMAMA\AppData\Roaming\Notepad++\README.md" />
-        <File filename="C:\Users\ALTMAMA\GitHub\GoogleContacts_CardDAV_Check\CHECK.pl" />
-        <File filename="C:\Users\ALTMAMA\GitHub\GoogleContacts_CardDAV_Check\README.md" />
+        <File filename="C:\Users\markaltmann\Documents\GitHub\GoogleContacts_CardDAV_Check\README.md" />
+        <File filename="C:\Users\markaltmann\Documents\GitHub\GoogleContacts_CardDAV_Check\CHECK.pl" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
