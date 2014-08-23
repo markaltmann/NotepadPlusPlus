@@ -13,7 +13,7 @@
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" size="4" replaceBySpace="yes" />
         <!--App position-->
-        <GUIConfig name="AppPosition" x="635" y="137" width="1125" height="717" isMaximized="no" />
+        <GUIConfig name="AppPosition" x="635" y="137" width="1125" height="717" isMaximized="yes" />
         <!-- For the primary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box"  -->
@@ -53,7 +53,7 @@
                                 1 : simple backup
                                 2 : verbose backup
                       -->
-        <GUIConfig name="Backup" action="0" useCustumDir="no" dir="" />
+        <GUIConfig name="Backup" action="0" useCustumDir="no" dir="" isSnapshotMode="no" snapshotBackupTiming="7000" />
         <GUIConfig name="TaskList">yes</GUIConfig>
         <GUIConfig name="SaveOpenFileInSameDir">no</GUIConfig>
         <!--
@@ -68,7 +68,7 @@
 						3 : bottom
 						>= 4 : undocked -> FloatingWindow id
 			-->
-        <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20140303">no</GUIConfig>
+        <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20140904">no</GUIConfig>
         <GUIConfig name="MaitainIndent">yes</GUIConfig>
         <GUIConfig name="MRU">yes</GUIConfig>
         <GUIConfig name="URL">0</GUIConfig>
@@ -87,6 +87,8 @@
         <GUIConfig name="multiInst" setting="0" />
         <GUIConfig name="auto-insert" parentheses="no" brackets="no" curlyBrackets="no" quotes="no" doubleQuotes="no" htmlXmlTag="no" />
         <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
+        <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" backSlashIsEscapeCharacterForSql="yes" />
+        <GUIConfig name="DetectEncoding">yes</GUIConfig>
         <GUIConfig name="DockingManager" leftWidth="200" rightWidth="357" topHeight="200" bottomHeight="647">
             <PluginDlg pluginName="NppTaskList.dll" id="15" curr="1" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44081" curr="0" prev="-1" isVisible="no" />
@@ -128,6 +130,11 @@
     <History nbMaxFile="15" inSubMenu="no" customLength="-1">
         <File filename="C:\Users\markaltmann\Documents\GitHub\GoogleContacts_CardDAV_Check\README.md" />
         <File filename="C:\Users\markaltmann\Documents\GitHub\GoogleContacts_CardDAV_Check\CHECK.pl" />
+        <File filename="C:\Users\markaltmann\Downloads\documents.key" />
+        <File filename="\\MARKALTMANN\Backup\Zertifikate\cacert server\server_marksmann.dyns.cx.crt" />
+        <File filename="\\MARKALTMANN\Backup\Zertifikate\cacert server\server_marksmann.dyns.cx.csr" />
+        <File filename="\\MARKALTMANN\Backup\Acer Mehnerts\shadow" />
+        <File filename="C:\Program Files (x86)\Notepad++\change.log" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
