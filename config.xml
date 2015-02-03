@@ -13,11 +13,11 @@
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" size="4" replaceBySpace="yes" />
         <!--App position-->
-        <GUIConfig name="AppPosition" x="635" y="137" width="1125" height="717" isMaximized="yes" />
+        <GUIConfig name="AppPosition" x="252" y="177" width="1457" height="717" isMaximized="yes" />
         <!-- For the primary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box"  -->
-        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" folderMarkStyle="box" indentGuideLine="show" currentLineHilitingShow="show" Wrap="yes" edge="no" edgeNbColumn="100" wrapSymbolShow="hide" zoom="1" whiteSpaceShow="show" eolShow="hide" lineWrapMethod="aligned" zoom2="1" borderWidth="2" disableAdvancedScrolling="no" />
+        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" folderMarkStyle="box" indentGuideLine="show" currentLineHilitingShow="show" Wrap="no" edge="no" edgeNbColumn="100" wrapSymbolShow="hide" zoom="1" whiteSpaceShow="show" eolShow="hide" lineWrapMethod="aligned" zoom2="1" borderWidth="2" disableAdvancedScrolling="no" />
         <!-- For the secodary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box" -->
@@ -68,7 +68,7 @@
 						3 : bottom
 						>= 4 : undocked -> FloatingWindow id
 			-->
-        <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20140904">no</GUIConfig>
+        <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20150215">no</GUIConfig>
         <GUIConfig name="MaitainIndent">yes</GUIConfig>
         <GUIConfig name="MRU">yes</GUIConfig>
         <GUIConfig name="URL">0</GUIConfig>
@@ -89,14 +89,14 @@
         <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" backSlashIsEscapeCharacterForSql="yes" />
         <GUIConfig name="DetectEncoding">yes</GUIConfig>
-        <GUIConfig name="DockingManager" leftWidth="200" rightWidth="357" topHeight="200" bottomHeight="647">
+        <GUIConfig name="DockingManager" leftWidth="200" rightWidth="357" topHeight="200" bottomHeight="463">
+            <PluginDlg pluginName="dummy" id="0" curr="3" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="NppTaskList.dll" id="15" curr="1" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44081" curr="0" prev="-1" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44084" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44080" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="NPPJSONViewer.dll" id="0" curr="0" prev="-1" isVisible="no" />
             <PluginDlg pluginName="Snippets" id="-1" curr="1" prev="-1" isVisible="yes" />
-            <PluginDlg pluginName="dummy" id="0" curr="3" prev="-1" isVisible="no" />
             <PluginDlg pluginName="Notepad++::InternalFunction" id="44070" curr="0" prev="-1" isVisible="no" />
             <ActiveTabs cont="0" activeTab="-1" />
             <ActiveTabs cont="1" activeTab="-1" />
@@ -106,16 +106,16 @@
     </GUIConfigs>
     <!-- The History of opened files list -->
     <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="yes" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no">
-        <Find name="TODO" />
-        <Find name="$cont" />
-        <Find name="cont" />
-        <Find name="state" />
-        <Find name="status" />
-        <Find name="Error" />
-        <Find name="theme" />
-        <Find name="read" />
-        <Find name="203.208.46" />
-        <Find name="46." />
+        <Find name="udeploy" />
+        <Find name="web0" />
+        <Find name="10.70.70.143" />
+        <Find name="db" />
+        <Find name="db0" />
+        <Find name="jump" />
+        <Find name="jira" />
+        <Find name="sccm" />
+        <Find name="puppet" />
+        <Find name="db1" />
         <Replace name="$contact" />
         <Replace name="contact" />
         <Replace name="203.208.47" />
@@ -131,10 +131,11 @@
         <File filename="C:\Users\markaltmann\Documents\GitHub\GoogleContacts_CardDAV_Check\README.md" />
         <File filename="C:\Users\markaltmann\Documents\GitHub\GoogleContacts_CardDAV_Check\CHECK.pl" />
         <File filename="C:\Users\markaltmann\Downloads\documents.key" />
-        <File filename="\\MARKALTMANN\Backup\Zertifikate\cacert server\server_marksmann.dyns.cx.crt" />
-        <File filename="\\MARKALTMANN\Backup\Zertifikate\cacert server\server_marksmann.dyns.cx.csr" />
-        <File filename="\\MARKALTMANN\Backup\Acer Mehnerts\shadow" />
+        <File filename="C:\Users\markaltmann\Pictures\Windows Phone\.SyncIgnore" />
         <File filename="C:\Program Files (x86)\Notepad++\change.log" />
+        <File filename="C:\Users\markaltmann\OneDrive\moovel\NATRuleset.txt" />
+        <File filename="C:\Users\markaltmann\OneDrive\moovel\Domainst.txt" />
+        <File filename="C:\Users\markaltmann\Desktop\pckey.asc" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
